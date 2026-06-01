@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NextGen Fashion Store</title>
+
+<link rel="stylesheet" href="style2.css">
+
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+/>
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+NextGen
+</div>
+
+<ul class="nav-links">
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#products">Products</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+<div class="nav-icons">
+
+<button id="darkModeBtn">
+<i class="fa-solid fa-moon"></i>
+</button>
+
+<button id="wishlistBtn">
+<i class="fa-solid fa-heart"></i>
+<span id="wishlistCount">0</span>
+</button>
+
+<button id="cartBtn">
+<i class="fa-solid fa-cart-shopping"></i>
+<span id="cartCount">0</span>
+</button>
+
+</div>
+
+</nav>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section id="home" class="hero">
+
+<div class="hero-content">
+
+<h1>
+Summer Arrival Collection
+</h1>
+
+<p>
+Discover trendy fashion and stylish
+collections for every season.
+</p>
+
+<a href="#products" class="hero-btn">
+Explore Now
+</a>
+
+</div>
+
+<div class="hero-image">
+
+<img
+src="https://images.unsplash.com/photo-1483985988355-763728e1935b"
+alt=""
+>
+
+</div>
+
+</section>
+
+<!-- ================= SEARCH ================= -->
+
+<section class="search-section">
+
+<input
+type="text"
+id="searchInput"
+placeholder="Search products..."
+>
+
+</section>
+
+<!-- ================= CATEGORIES ================= -->
+
+<section class="categories">
+
+<h2>Browse Categories</h2>
+
+<div class="category-container">
+
+<div class="category-card">
+<img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff">
+<h3>Shoes</h3>
+</div>
+
+<div class="category-card">
+<img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9">
+<h3>Beauty</h3>
+</div>
+
+<div class="category-card">
+<img src="https://images.unsplash.com/photo-1445205170230-053b83016050">
+<h3>Fashion</h3>
+</div>
+
+<div class="category-card">
+<img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3">
+<h3>Bags</h3>
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= PRODUCTS ================= -->
+
+<section id="products" class="products-section">
+
+<h2>Popular Products</h2>
+
+<div class="products-grid" id="productsGrid">
+
+<!-- PRODUCT 1 -->
+
+<div
+class="product-card"
+data-name="Stylish T-Shirt"
+data-price="120"
+>
+
+<span class="badge">Sale</span>
+
+<img
+src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+>
+
+<h3>Stylish T-Shirt</h3>
+
+<div class="stars">
+★★★★★
+</div>
+
+<p>$120</p>
+
+<div class="product-buttons">
+
+<button class="add-cart">
+Add To Cart
+</button>
+
+<button class="wishlist">
+❤️
+</button>
+
+<button class="details-btn">
+Details
+</button>
+
+</div>
+
+</div>
+
+<!-- PRODUCT 2 -->
+
+<div
+class="product-card"
+data-name="Modern Hoodie"
+data-price="150"
+>
+
+<span class="badge">New</span>
+
+<img
+src="https://images.unsplash.com/photo-1556821840-3a63f95609a7"
+>
+
+<h3>Modern Hoodie</h3>
+
+<div class="stars">
+★★★★★
+</div>
+
+<p>$150</p>
+
+<div class="product-buttons">
+
+<button class="add-cart">
+Add To Cart
+</button>
+
+<button class="wishlist">
+❤️
+</button>
+
+<button class="details-btn">
+Details
+</button>
+
+</div>
+
+</div>
+
+<!-- PRODUCT 3 -->
+
+<div
+class="product-card"
+data-name="Premium Jacket"
+data-price="220"
+>
+
+<span class="badge">Hot</span>
+
+<img
+src="https://images.unsplash.com/photo-1523398002811-999ca8dec234"
+>
+
+<h3>Premium Jacket</h3>
+
+<div class="stars">
+★★★★★
+</div>
+
+<p>$220</p>
+
+<div class="product-buttons">
+
+<button class="add-cart">
+Add To Cart
+</button>
+
+<button class="wishlist">
+❤️
+</button>
+
+<button class="details-btn">
+Details
+</button>
+
+</div>
+
+</div>
+
+<!-- PRODUCT 4 -->
+
+<div
+class="product-card"
+data-name="Women Outfit"
+data-price="180"
+>
+
+<span class="badge">Trend</span>
+
+<img
+src="https://images.unsplash.com/photo-1496747611176-843222e1e57c"
+>
+
+<h3>Women Outfit</h3>
+
+<div class="stars">
+★★★★★
+</div>
+
+<p>$180</p>
+
+<div class="product-buttons">
+
+<button class="add-cart">
+Add To Cart
+</button>
+
+<button class="wishlist">
+❤️
+</button>
+
+<button class="details-btn">
+Details
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="about">
+
+<h2>About Us</h2>
+
+<p>
+NextGen is a modern fashion e-commerce
+store offering stylish products for
+men and women.
+</p>
+
+</section>
+
+<!-- ================= NEWSLETTER ================= -->
+
+<section class="newsletter">
+
+<h2>
+Subscribe Newsletter
+</h2>
+
+<p>
+Get latest fashion updates
+</p>
+
+<div class="newsletter-box">
+
+<input
+type="email"
+placeholder="Enter your email"
+>
+
+<button>
+Subscribe
+</button>
+
+</div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="contact">
+
+<h2>Contact Us</h2>
+
+<form>
+
+<input
+type="text"
+placeholder="Your Name"
+required
+>
+
+<input
+type="email"
+placeholder="Your Email"
+required
+>
+
+<textarea
+placeholder="Message"
+required
+></textarea>
+
+<button>
+Send Message
+</button>
+
+</form>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<div class="footer-content">
+
+<div>
+<h3>NextGen</h3>
+<p>
+Modern Fashion Store
+</p>
+</div>
+
+<div>
+
+<h3>Quick Links</h3>
+
+<a href="#home">Home</a>
+
+<a href="#products">Products</a>
+
+<a href="#about">About</a>
+
+<a href="#contact">Contact</a>
+
+</div>
+
+<div>
+
+<h3>Follow Us</h3>
+
+<i class="fab fa-instagram"></i>
+
+<i class="fab fa-facebook"></i>
+
+<i class="fab fa-twitter"></i>
+
+</div>
+
+</div>
+
+</footer>
+
+<!-- ================= CART SIDEBAR ================= -->
+
+<div id="cartSidebar" class="sidebar">
+
+<h2>Your Cart</h2>
+
+<div id="cartItems"></div>
+
+<h3 id="cartTotal">
+Total : $0
+</h3>
+
+<button id="checkoutBtn">
+Checkout
+</button>
+
+</div>
+
+<!-- ================= WISHLIST ================= -->
+
+<div id="wishlistSidebar" class="sidebar">
+
+<h2>Wishlist</h2>
+
+<div id="wishlistItems"></div>
+
+</div>
+
+<!-- ================= PRODUCT MODAL ================= -->
+
+<div id="productModal" class="modal">
+
+<div class="modal-content">
+
+<span class="closeModal">
+&times;
+</span>
+
+<h2 id="modalTitle"></h2>
+
+<p id="modalPrice"></p>
+
+<p>
+Premium quality fashion product.
+</p>
+
+</div>
+
+</div>
+
+<!-- ================= CHECKOUT MODAL ================= -->
+
+<div id="checkoutModal" class="modal">
+
+<div class="modal-content">
+
+<h2>
+Checkout
+</h2>
+
+<form id="checkoutForm">
+
+<input
+type="text"
+placeholder="Full Name"
+required
+>
+
+<input
+type="tel"
+placeholder="Phone Number"
+required
+>
+
+<textarea
+placeholder="Address"
+required
+></textarea>
+
+<button type="submit">
+Place Order
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+<!-- ================= TOAST ================= -->
+
+<div id="toast">
+Success
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
